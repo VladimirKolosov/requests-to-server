@@ -1,0 +1,53 @@
+.app {
+	text-align: center;
+	background-color: black;
+	padding: 20px;
+	color: white;
+}
+
+.ul {
+	list-style: none;
+	padding: 0;
+}
+
+.li {
+	margin: 10px 0;
+	font-size: 18px;
+}
+
+.button {
+	width: 150px;
+	height: 30px;
+	font-size: medium;
+	margin: 5px;
+	background-color: #2ecc71;
+	color: darkmagenta;
+	cursor: pointer;
+}
+.input {
+	width: 150px;
+	height: 23px;
+}
+
+.loader {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 25px;
+	height: 25px;
+	border: 5px solid gray;
+	border-radius: 50%;
+	border-left-color: transparent;
+	animation: loader 1s infinite;
+}
+
+@keyframes loader {
+	0% {
+		transform: rotate(0deg);
+	}
+
+	100% {
+		transform: rotate(360deg);
+	}
+}
